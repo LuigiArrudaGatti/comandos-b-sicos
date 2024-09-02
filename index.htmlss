@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Principais Comandos para Criar um Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Os Principais Comandos para Criar um Site</h1>
+    
+    <h2>Comando para Criar um Repositório</h2>
+    <p>
+        O comando para criar um novo repositório no GitHub é:
+    </p>
+    <pre><code>git init</code></pre>
+    <p>
+        Este comando inicializa um novo repositório Git vazio no diretório atual. É o primeiro passo para começar a versionar seu código.
+    </p>
+    
+    <h2>Comando para Adicionar Arquivos ao Repositório</h2>
+    <p>
+        Após criar um repositório, você precisa adicionar arquivos a ele. O comando para adicionar todos os arquivos é:
+    </p>
+    <pre><code>git add .</code></pre>
+    <p>
+        O comando <code>git add .</code> adiciona todos os arquivos e diretórios do seu projeto ao índice do Git, preparando-os para o próximo commit.
+    </p>
+    
+    <h2>Comando para Confirmar as Alterações</h2>
+    <p>
+        Depois de adicionar arquivos, você precisa confirmar as alterações. O comando é:
+    </p>
+    <pre><code>git commit -m "Mensagem do commit"</code></pre>
+    <p>
+        Este comando salva suas alterações no repositório local. A mensagem do commit deve descrever brevemente as alterações feitas.
+    </p>
+</body>
+</html>
